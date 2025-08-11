@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meme Review Form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script> 
+  var sub = false; 
+  </script>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen p-4">
+
+  <iframe id="end" name="end" style="display: none;" onload="if(sub){ window.location='end1.html'; }"></iframe>
+
+  <!--https://docs.google.com/forms/d/e/1FAIpQLSeItf_eyGtrOlOF1BcfNs18E-puerU2Nlu0CQ6Gem0auR0RWQ/viewform?usp=pp_url&
+entry.331985794=xyz&
+entry.1588490831=utf&
+entry.1794089651=idk&
+entry.1631601598=LOL-tier&
+entry.1156224205=mnbg-->
+
+  <main class= "bg-gray-800 rounded-2xl p-6 w-full max-w-lg shadow-lg space-y-6">
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSeItf_eyGtrOlOF1BcfNs18E-puerU2Nlu0CQ6Gem0auR0RWQ/formResponse"
+        method="POST"
+        target="end"
+        onsubmit="sub = true;
+       
+    
+    <h1 class = "text-3xl font-bold text-center">📝 Meme Review Form</h1>
+
+    <!-- Meme Name -->
+    <section>
+      <label class="block mb-2">Your Meme Name:</label>
+      <input type="text" name="entry.331985794" placeholder="e.g., ShrekButCool"
+        class="w-full p-2 rounded bg-gray-700 focus:outline-none" required>
+    </section><br>
+
+    <!-- Job Profile -->
+    <section>
+      <label class="block mb-2">Your Job Profile:</label>
+      <input type="text" name="entry.1588490831" placeholder="e.g., Chief Vibe Officer"
+        class="w-full p-2 rounded bg-gray-700 focus:outline-none" required>
+    </section><br>
+
+    <!-- Inspiring Meme -->
+    <section>
+      <label class="block mb-2">Why You Need a Meme Resume:</label>
+      <textarea name="entry.1794089651" placeholder="More Exhausted Than You..."
+        class="w-full p-2 rounded bg-gray-700 focus:outline-none" required></textarea>
+    </section> <br>
+
+    <!-- Site Rating -->
+    <section>
+      <label class="block mb-2">Rate Our Site (Meme Scale):</label>
+      <select name="entry.1631601598" class="w-full p-2 rounded bg-gray-700 focus:outline-none">
+        <option>LOL-tier</option>
+        <option>ROFL-tier</option>
+        <option>Mind-Blown-tier</option>
+        <option>Meme God-tier</option>
+      </select>
+    </section> <br>
+
+    <!-- Final Words -->
+    <section>
+      <label class="block mb-2">Last words before we screenshot your soul:</label>
+      <input type="text" name="entry.1156224205" placeholder="e.g., This is fine"
+        class="w-full p-2 rounded bg-gray-700 focus:outline-none">
+    </section><br>
+
+    <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 p-3 rounded font-bold">
+      Submit Your Meme Review
+    </button>
+  </form>
+  </main>
+
+</body>
+</html>
