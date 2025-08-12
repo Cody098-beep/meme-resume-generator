@@ -5,11 +5,11 @@ A lighthearted, fun web app that lets users download meme-themed resume template
 ---
 
 ## Features
--  6 Unique Meme Resume Templates** — Downloadable in a click.
--  Funny Cat Meme Footer** — Because feedback is better with a cat face.
--  One-click Download Buttons** — Easy and fast access to templates.
--  Review Form Integration** — Collect thoughts, suggestions, or rants from users.
--  Responsive Design** — Works on desktops, tablets, and phones.
+-  6 Unique Meme Resume Templates — Downloadable in a click.
+-  Funny Cat Meme Footer — Because feedback is better with a cat face.
+-  One-click Download Buttons — Easy and fast access to templates.
+-  Review Form Integration — Collect thoughts, suggestions, or rants from users.
+-  Responsive Design — Works on desktops, tablets, and phones.
 
 ---
 
@@ -28,7 +28,7 @@ A lighthearted, fun web app that lets users download meme-themed resume template
 ##  Tech Stack
 - HTML5
 - Tailwind CSS (for styling)
-- Animate.css (for fun animations)
+- Animate.css (for animations)
 
 
 ---
